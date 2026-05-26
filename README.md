@@ -4,6 +4,10 @@ LBSocial AI Study Mode is a learning assistant for LBSocial courses. It helps le
 
 This public repository is a project window for testers, reviewers, and technical collaborators. It shows what we are building, how the learning experience works, and where people can report issues during beta testing.
 
+**Try it:** https://ai.lbsocial.net  
+**Main website:** https://lbsocial.net  
+**Report an issue:** https://github.com/lbsocial/lbsocial-ai-public/issues/new/choose
+
 ## Study Mode Demo
 
 ![LBSocial AI Study Mode demo](assets/images/study_mode_demo.gif)
