@@ -1,6 +1,6 @@
 # LBSocial AI Study Mode Overview
 
-LBSocial AI Study Mode is a beta learning workspace for asking questions about LBSocial course content and turning those questions into grounded learning paths.
+LBSocial AI Study Mode is a learning workspace for asking questions about LBSocial course content and turning those questions into grounded learning paths.
 
 It is designed for learners who want a practical answer with course context: what to study, which video or timestamp supports the answer, and what to practice next.
 
@@ -42,7 +42,7 @@ At a high level:
 6. The AI tutor writes a concise answer using the retrieved context as the source of truth for course, video, and timestamp claims.
 7. The app shows the answer, Study Path, source cards, and feedback/report controls.
 
-The production implementation uses a private app backend and a private knowledge graph service. This public repository intentionally does not expose private source code, service URLs, deployment settings, credentials, user records, or internal logs.
+The production implementation uses a private app backend and a private knowledge graph service. This public page focuses on the product experience and technical shape without exposing private code, credentials, user records, or internal logs.
 
 ## Direct, Related, and No-Source Answers
 
@@ -85,8 +85,8 @@ Good feedback examples:
 
 Please avoid posting private account details or sensitive screenshots in public issues.
 
-## Public Repo Boundary
+## Public Project Window
 
 This repository is public so testers, reviewers, and collaborators can understand the product direction and report beta issues.
 
-Private production repositories remain private. A future public/demo version may be added here only after it is sanitized and stripped of private source code, secrets, deployment settings, internal service names, real user data, and operational logs.
+Future public/demo materials may be added here after they are prepared for public viewing.
