@@ -1,18 +1,15 @@
-Copyright (c) 2026 LBSocial
+# LBSocial Proprietary License
 
-All rights reserved.
+Copyright (c) 2026 LBSocial LLC. All rights reserved.
 
-This repository is made public for product transparency, beta testing, issue
-reporting, and technical collaboration around LBSocial AI Study Mode.
+This repository is made public for product transparency, beta testing, issue reporting, and technical collaboration around LBSocial AI Study Mode.
 
-Unless a separate written license is provided by LBSocial, no permission is
-granted to copy, modify, distribute, sublicense, sell, or otherwise use the
-contents of this repository, including documentation, images, diagrams,
-screenshots, demos, issue templates, and other materials.
+This repository is not an open-source software release. Unless a separate written license is provided by LBSocial LLC, no permission is granted to copy, modify, distribute, sublicense, sell, host, reproduce, or otherwise use the contents of this repository.
 
-The LBSocial name, logos, product names, course materials, screenshots, and
-other brand assets are proprietary to LBSocial and may not be used without
-prior written permission.
+This restriction applies to, but is not limited to, documentation, images, diagrams, screenshots, demos, issue templates, product descriptions, course-related materials, and other repository materials.
 
-The contents of this repository are provided for informational purposes only
-and without warranties of any kind, express or implied.
+The LBSocial name, logos, product names, course materials, screenshots, visual designs, and other brand assets are proprietary to LBSocial LLC and may not be used without prior written permission.
+
+The production source code, deployment configuration, credentials, user data, logs, and internal service details for LBSocial AI are not included in this repository and remain private.
+
+The contents of this repository are provided for informational purposes only and without warranties of any kind, express or implied.
