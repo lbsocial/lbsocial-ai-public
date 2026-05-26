@@ -4,6 +4,10 @@ LBSocial AI Study Mode is a learning assistant for LBSocial courses. It helps le
 
 This public repository is a project window for testers, reviewers, and technical collaborators. It shows what we are building, how the learning experience works, and where people can report issues during beta testing.
 
+## Study Mode Demo
+
+![LBSocial AI Study Mode demo](assets/images/study_mode_demo.gif)
+
 ## Product Snapshot
 
 Study Mode is built on top of the LBSocial course library and a course knowledge graph. The current learning content snapshot includes:
@@ -17,18 +21,9 @@ Study Mode is built on top of the LBSocial course library and a course knowledge
 
 The graph connects courses, videos, chapters, transcript segments, topics, tools, and skills. That lets the AI tutor answer with real LBSocial learning context instead of only giving a generic AI response.
 
-## Screenshots
+## Knowledge Graph Dashboard
 
-Place the screenshots in `assets/images/` using these filenames:
-
-- `content-analytics.png`
-- `study-mode-preview.png`
-
-After the image files are added locally, GitHub will render them here:
-
-![Learning Content Analytics](assets/images/content-analytics.png)
-
-![LBSocial AI Study Mode preview](assets/images/study-mode-preview.png)
+![Learning Content Analytics dashboard](assets/images/kg-dashboard.png)
 
 ## What Learners Can Do
 
