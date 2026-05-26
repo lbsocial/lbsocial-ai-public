@@ -84,3 +84,9 @@ The production system includes:
 The production source code, deployment configuration, credentials, user data, logs, and internal service details remain private. Future public demo materials may be added here after they are sanitized.
 
 Read more: [Study Mode Overview](docs/study-mode-overview.md)
+
+## License
+
+This repository is public for product transparency, beta testing, issue reporting, and technical collaboration. It is not an open source project unless LBSocial provides a separate written license.
+
+See [LICENSE](LICENSE) for details.
