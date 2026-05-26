@@ -1,6 +1,30 @@
 # LBSocial AI Public Beta
 
-This public repository is for LBSocial AI beta feedback, issue reports, and future sanitized demo materials.
+LBSocial AI is a beta learning assistant for LBSocial courses. It helps learners ask questions, find relevant course videos, open timestamped YouTube evidence, and turn a topic into a practical Study Mode learning path.
+
+This public repository is for beta feedback, issue reports, public-facing project notes, and future sanitized demo materials.
+
+## Study Mode at a Glance
+
+Study Mode connects the LBSocial AI app to a course knowledge graph built from LBSocial learning content. The current content analytics snapshot includes:
+
+- **12 courses**
+- **340 videos**
+- **1,004 chapters**
+- **7,000 transcript segments**
+
+The knowledge graph organizes course, video, chapter, transcript, topic, tool, and skill metadata so the AI tutor can ground answers in actual LBSocial learning material instead of relying only on generic model knowledge.
+
+When a learner asks a course or tool question, Study Mode can:
+
+- Retrieve relevant LBSocial course/video evidence.
+- Show YouTube source cards with timestamps when direct evidence is available.
+- Build a step-by-step Study Path from retrieved course material.
+- Distinguish direct source matches from related or no-source answers.
+- Support English, Chinese, and common speech-like variants such as OpenCloud/OpenClaw, Neo four j/Neo4j, and n eight n/n8n.
+- Collect Helpful / Not helpful feedback and public issue reports during beta testing.
+
+Read the detailed overview: [Study Mode Overview](docs/study-mode-overview.md)
 
 ## What This Repo Is For
 
