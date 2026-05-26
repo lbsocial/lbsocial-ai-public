@@ -1,0 +1,55 @@
+name: AI answer or source problem
+description: Report a wrong answer, missing source, bad video match, or weak study path.
+title: "[Answer]: "
+labels:
+  - answer-quality
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please summarize the issue without pasting private chat history, account details, personal data, or sensitive screenshots.
+  - type: textarea
+    id: question
+    attributes:
+      label: What did you ask?
+      description: A short paraphrase is enough. Do not include private details.
+      placeholder: I asked where LBSocial teaches OpenClaw with n8n webhooks.
+    validations:
+      required: true
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: What was wrong?
+      options:
+        - The answer was incorrect
+        - The answer was too generic
+        - The video/source was wrong
+        - A source was missing
+        - The learning path was not useful
+        - The answer used the wrong language
+        - Voice Tutor misunderstood my question
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+      placeholder: It should have linked the OpenClaw/n8n webhook lesson, or said no matching LBSocial source was found.
+    validations:
+      required: true
+  - type: textarea
+    id: answer-summary
+    attributes:
+      label: Short summary of the answer or source shown
+      description: Keep this short and remove private information.
+      placeholder: It recommended an unrelated video about...
+    validations:
+      required: false
+  - type: input
+    id: language
+    attributes:
+      label: Language used
+      placeholder: English, Chinese, mixed English/Chinese, etc.
+    validations:
+      required: false

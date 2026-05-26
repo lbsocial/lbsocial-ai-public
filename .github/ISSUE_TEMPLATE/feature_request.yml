@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest an improvement for LBSocial AI.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to improve?
+      placeholder: Describe the feature, workflow, or learning improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this help?
+      placeholder: Tell us how this would make learning easier or more useful.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Study Mode
+        - Voice Tutor
+        - Study Workspace
+        - Video/source cards
+        - Feedback and reporting
+        - Mobile experience
+        - Other
+    validations:
+      required: false

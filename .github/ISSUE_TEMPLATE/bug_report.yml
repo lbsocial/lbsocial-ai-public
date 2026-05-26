@@ -1,0 +1,58 @@
+name: Bug report
+description: Report an app, login, voice, UI, or reliability problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing LBSocial AI. Please do not include passwords, API keys, private account information, personal data, or screenshots with sensitive details.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem you saw.
+      placeholder: The app did not load, Voice Tutor stopped listening, the page layout overlapped, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the issue happened?
+      placeholder: |
+        1. Opened LBSocial AI
+        2. Clicked Voice Tutor
+        3. Asked a question
+        4. Saw the issue
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Study Mode
+        - Voice Tutor
+        - Login or account access
+        - Video/source cards
+        - Study Workspace
+        - Mobile layout
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser-device
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows, Safari on iPhone, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: Tell us what you expected to happen instead.
+    validations:
+      required: false
